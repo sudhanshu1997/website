@@ -5,3 +5,5 @@ def hi(request):
     return render(request,'app1/hi.html')
 def hlo(request):
     return render(request,'app1/hlo.html')
+def hm(request):
+    return render (request,'app1/hm.html')
